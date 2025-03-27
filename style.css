@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    
+    background-color: rgb(134, 218, 190);
+}
+
+#panel{
+    height: 80%;
+    width: 80%;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#ptop{
+    padding:0% 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    height: 80px;
+    width: 100%;
+    color: #fff;
+    background-color: rgb(8, 61, 22);
+}
+
+.elem{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 15px;
+    /* padding: 0px 30px; */
+    /* color: #fff; */
+    height: 30px;
+    /* width: 20%; */
+    /* justify-content: space-between; */
+    /* background-color: aqua; */
+}
+
+.box{
+    border-radius: 2px;
+    padding:10px 20px;
+    /* height: 20px;
+    width: 20px; */
+    color: rgb(8, 61, 22);
+    font-weight: 700;
+    font-size: 15px;
+    background-color: rgb(134, 218, 190);
+    
+}
+
+#pbtm{
+   
+    display: flex;
+    padding: 5px 5px;
+    gap: 5px;
+    width: 100%;
+
+    justify-content: center ;
+    align-items: center;
+    height: calc(100% - 80px);
+    flex-wrap: wrap;
+    color: #000;
+    font-weight: 700;
+    background-color: rgb(11, 106, 82);
+}
+
+.bubble{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(134, 218, 190);
+}
+
+.bubble:hover{
+    background-color: rgb(8, 61, 22);
+    cursor: pointer;
+    color:#fff
+}
+
+#final{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    /* background-color: rgb(8, 61, 22); */
+    color: #fff;
+    font-weight: 700;
+}
